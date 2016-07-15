@@ -3,7 +3,7 @@
 ####one pattern per day.
 ####use java 8 new features.
 
-###java 8 learning point
+###java 8 learning point task:
 * Stream
 * Lambda
 * Optional

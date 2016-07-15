@@ -1,4 +1,4 @@
-package com.evsward.adstract_document;
+package com.evsward.abstract_document;
 
 import java.util.Arrays;
 import java.util.HashMap;

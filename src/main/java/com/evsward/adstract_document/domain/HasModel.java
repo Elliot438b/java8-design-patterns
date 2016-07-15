@@ -2,7 +2,7 @@ package com.evsward.adstract_document.domain;
 
 import java.util.Optional;
 
-import com.evsward.adstract_document.Document;
+import com.evsward.abstract_document.Document;
 /*
  * one interface. represents like a feature.
  * It has a key named PROPERTY.

@@ -2,7 +2,7 @@ package com.evsward.adstract_document.domain;
 
 import java.util.Map;
 
-import com.evsward.adstract_document.AbstractDocument;
+import com.evsward.abstract_document.AbstractDocument;
 
 /*
  * There aren't any difference between this and WoodenHouse class.
