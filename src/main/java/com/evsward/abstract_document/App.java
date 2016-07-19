@@ -4,10 +4,10 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.evsward.adstract_document.domain.HasModel;
-import com.evsward.adstract_document.domain.HasParts;
-import com.evsward.adstract_document.domain.HasWoods;
-import com.evsward.adstract_document.domain.WoodenHouse;
+import com.evsward.abstract_document.domain.HasModel;
+import com.evsward.abstract_document.domain.HasParts;
+import com.evsward.abstract_document.domain.HasWoods;
+import com.evsward.abstract_document.domain.WoodenHouse;
 
 public class App {
 	public App() {

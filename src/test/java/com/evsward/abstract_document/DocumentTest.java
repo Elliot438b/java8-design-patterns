@@ -7,10 +7,10 @@ import java.util.Map;
 
 import org.junit.Test;
 
-import com.evsward.adstract_document.domain.HasModel;
-import com.evsward.adstract_document.domain.HasWoods;
-import com.evsward.adstract_document.domain.Part;
-import com.evsward.adstract_document.domain.WoodenHouse;
+import com.evsward.abstract_document.domain.HasModel;
+import com.evsward.abstract_document.domain.HasWoods;
+import com.evsward.abstract_document.domain.Part;
+import com.evsward.abstract_document.domain.WoodenHouse;
 
 public class DocumentTest {
 	private static final long TEST_PART_WOODS = 200L;

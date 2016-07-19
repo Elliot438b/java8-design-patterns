@@ -1,4 +1,4 @@
-package com.evsward.adstract_document.domain;
+package com.evsward.abstract_document.domain;
 
 import java.util.Map;
 

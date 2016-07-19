@@ -10,6 +10,8 @@ import java.util.stream.Stream;
 
 import org.junit.Test;
 
+import com.evsward.abstract_document.AbstractDocument;
+
 public class AbstractDocumentTest {
 	private static final String KEY = "key";
 	private static final String VALUE = "value";
