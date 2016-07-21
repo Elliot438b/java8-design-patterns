@@ -7,3 +7,10 @@
 * Stream
 * Lambda
 * Optional
+
+### new technique point:
+* Spring boot, quickly establish a web service.
+
+### next task(next week 25/07~26/07.2016):
+* aggregator-microservices, a mechanism which could control and dispatch the sub modules.
+* Spring boot will be used at this part, let's do something different from SpringMVC.
