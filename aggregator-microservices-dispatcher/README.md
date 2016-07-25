@@ -4,8 +4,3 @@
 
 ![alt text](./etc/aggregator-microservice.png "Aggregator Microservice")
 
-
-##### skill:Remove directory from remote repository after adding them to .gitignore
-- **git rm -r --cached some-directory**
-- git commit -m 'Remove the now ignored directory "some-directory"'
-- git push origin master

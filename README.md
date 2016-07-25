@@ -1,9 +1,21 @@
-# java8-design-patterns
+# Java8-design-patterns
 ####study and learn [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns).
 ####one pattern per day.
 ####use java 8 new features.
 ####md text help: [markdown api](http://itmyhome.com/markdown/index.html).
+##Notice:
+* Check .gitignore before every commit, abandon the files such as .project .classpath,
+* and the directory .settings,target
+* and the .gitignore itself.
+* All these rubbish above cannot be commit, check twice.
 
+- **If careless done. according to below:**
+- **skill:Remove directory from remote repository after adding them to .gitignore**
+- **git rm -r --cached some-directory**
+- git commit -m 'Remove the now ignored directory "some-directory"'
+- git push origin master
+
+***
 ###java 8 learning point task:
 * Stream
 * Lambda
