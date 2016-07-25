@@ -2,6 +2,7 @@
 ####study and learn [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns).
 ####one pattern per day.
 ####use java 8 new features.
+####md text help: [markdown api](http://itmyhome.com/markdown/index.html).
 
 ###java 8 learning point task:
 * Stream
