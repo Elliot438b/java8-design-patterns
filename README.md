@@ -28,5 +28,9 @@
 * aggregator-microservices, a mechanism which could control and dispatch the sub modules.
 * Spring boot will be used at this part, let's do something different from SpringMVC.
 
-### api-gateway:
+### ~~api-gateway~~:
 - *also a multiple module-parent project to learn this pattern.*
+- **part of the aggregator project.**
+
+### back to the single maven project.
+- async-method-invocation
