@@ -33,4 +33,9 @@
 - **part of the aggregator project.**
 
 ### back to the single maven project.
-- async-method-invocation
+- async-method-invocation:
+- java enhance generic.
+- multiple thread coding.
+- wait();
+- notifyAll();
+- InterruptedException
