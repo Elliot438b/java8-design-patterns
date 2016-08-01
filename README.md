@@ -40,4 +40,4 @@
 - wait();
 - notifyAll();
 - InterruptedException
-- ~~They disturb me very much cause I haven't done a project with multiple thread~~
+- **They disturb me very much cause I haven't done a project with multiple thread**
