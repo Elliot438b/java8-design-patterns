@@ -41,3 +41,6 @@
 - notifyAll();
 - InterruptedException
 - **They disturb me very much cause I haven't done a project with multiple thread**
+
+### bridge pattern:
+- which is a magic pattern could resolve an old superclass, and make it diversity to super more child class with their specific feature to use.
