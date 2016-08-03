@@ -47,3 +47,7 @@
 
 ### builder pattern:
 - which is so useful pattern, just like the StringBuilder. It could **construct diverse properties** freely.
+- java enum: which could define the detail of property, just like a constant but it could fix the content.
+- enum has two ways to define the constant generally: 
+- 1. just define every constant.
+- 2. every constant could have an inner properties(one or more), but you must define the properties with "private Type Constant;" and do construct to initial the constant's value;

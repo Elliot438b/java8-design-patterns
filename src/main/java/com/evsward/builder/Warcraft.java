@@ -8,6 +8,8 @@ public class Warcraft {
 	private final Bomb bomb;
 	private final Missile missile;
 
+	// this constructor just be opened to the Builder class below, so which is
+	// defined private.
 	private Warcraft(Builder builder) {
 		this.name = builder.name;
 		this.generation = builder.generation;
@@ -71,6 +73,8 @@ public class Warcraft {
 
 		public Builder(String name, Generation generation) {
 			if (name == null || generation == null) {
+				// IllegalArgumentException： remember this exception which could
+				// deal with the argument exception very properly.
 				throw new IllegalArgumentException("the parameter name and generation cannot be null! ");
 			}
 			this.name = name;
