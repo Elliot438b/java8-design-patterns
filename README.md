@@ -44,3 +44,6 @@
 
 ### bridge pattern:
 - which is a magic pattern could resolve an old superclass, and make it diversity to super more child class with their specific feature to use.
+
+### builder pattern:
+- which is so useful pattern, just like the StringBuilder. It could **construct diverse properties** freely.
