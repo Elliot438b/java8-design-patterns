@@ -52,3 +52,8 @@
 - 1. just define every constant.
 - 2. every constant could have an inner properties(one or more), but you must define the properties with "private Type Constant;" and do construct to initial the constant's value;
 - enum always need you to overwrite the toString function to return the value you want where you invoke this enum.
+
+### caching
+- linked-list structure.
+- mongoDB/virtualDB **install mongoDB on ubuntu.**
+- caller -> cache(fix size/Capacity) -> DB(big container)
