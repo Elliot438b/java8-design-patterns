@@ -54,7 +54,7 @@
 - enum always need you to overwrite the toString function to return the value you want where you invoke this enum.
 
 ### caching
-- linked-list structure.
+- double linked-list structure.
 - mongoDB/virtualDB **install mongoDB on ubuntu.**
 - caller -> cache(fix size/Capacity) -> DB(big container)
 
