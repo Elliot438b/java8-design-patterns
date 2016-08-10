@@ -57,3 +57,11 @@
 - linked-list structure.
 - mongoDB/virtualDB **install mongoDB on ubuntu.**
 - caller -> cache(fix size/Capacity) -> DB(big container)
+
+### install and use mongoDB on ubuntu
+- sudo apt-get install mongodb
+- sudo su - root, vi /etc/mongodb.conf, port=27017.
+- /etc/init.d/mongodb start**(force-reload/force-stop/restart/start/status/stop)**
+- mongo
+- show dbs,	use one of them, show collections, db.tname.find(), list all the data in this collection(table).
+- more command usage, please refer to [distinguish between MySQL and MongoDB](http://www.lai18.com/content/422835.html)
