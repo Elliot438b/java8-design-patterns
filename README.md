@@ -65,3 +65,6 @@
 - mongo
 - show dbs,	use one of them, show collections, db.tname.find(), list all the data in this collection(table).
 - more command usage, please refer to [distinguish between MySQL and MongoDB](http://www.lai18.com/content/422835.html)
+
+### reset the git local modify 
+- open the terminal, git checkout -f, refresh.
