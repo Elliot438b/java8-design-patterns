@@ -68,3 +68,6 @@
 
 ### reset the git local modify 
 - open the terminal, git checkout -f, refresh.
+
+### callback pattern 
+- easy to use but really useful pattern!
