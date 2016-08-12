@@ -3,6 +3,11 @@ package com.evsward.chain;
 public abstract class RequestHandler {
 	private RequestHandler next;
 
+	/**
+	 * a loop object constructor.
+	 * this is the key constructor of chain pattern.
+	 * @param next
+	 */
 	public RequestHandler(RequestHandler next) {
 		this.next = next;
 	}
@@ -18,6 +23,6 @@ public abstract class RequestHandler {
 	}
 
 	@Override
-	public abstract String toString();// shows the child's own name.
+	public abstract String toString();// shows the children's own name.
 
 }
