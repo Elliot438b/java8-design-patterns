@@ -43,10 +43,10 @@
 - **They disturb me very much cause I haven't done a project with multiple thread**
 
 ### bridge pattern:
-- which is a magic pattern could resolve an old superclass, and make it diversity to super more child class with their specific feature to use.
+- Which is a magic pattern could resolve an old superclass, and make it diversity to super more child class with their specific feature to use.
 
 ### builder pattern:
-- which is so useful pattern, just like the StringBuilder. It could **construct diverse properties** freely.
+- Which is so useful pattern, just like the StringBuilder. It could **construct diverse properties** freely.
 - java enum: which could define the detail of property, just like a constant but it could fix the content.
 - enum has two ways to define the constant generally: 
 - 1. just define every constant.
@@ -67,7 +67,14 @@
 - more command usage, please refer to [distinguish between MySQL and MongoDB](http://www.lai18.com/content/422835.html)
 
 ### reset the git local modify 
-- open the terminal, git checkout -f, refresh.
+- Open the terminal, git checkout -f, refresh.
 
 ### callback pattern 
-- easy to use but really useful pattern!
+- Easy to use but really useful pattern!
+
+### chain
+- Generally,the leader should distribute responsibilities to the people on every position.(use if to judge who do)
+- But chain pattern is ask the leader's just a trouble maker and he don't care who do, so the people on every position start throwing the job to others.(in order to the chain's queue).
+- Chain is more like a big automatic system.
+- Duty is from leader to the worker themselves.
+- Worker choose the job which he could do by himself.(what an ideal society we are eager to.)
