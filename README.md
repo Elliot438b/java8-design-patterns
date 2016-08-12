@@ -73,8 +73,8 @@
 - Easy to use but really useful pattern!
 
 ### chain
-- Generally,the leader should distribute responsibilities to the people on every position.(use if to judge who do)
-- But chain pattern is ask the leader's just a trouble maker and he don't care who do, so the people on every position start throwing the job to others.(in order to the chain's queue).
+- Generally,the leader should distribute responsibilities to the worker on every position.(use if to judge who do)
+- But chain pattern is require the leader be a trouble maker and he don't care who do, and the worker on every position start throwing the job to others.(in the chain's order).
 - Chain is more like a big automatic system.
 - Duty is from leader to the worker themselves.
 - Worker choose the job which he could do by himself.(what an ideal society we are eager to.)
