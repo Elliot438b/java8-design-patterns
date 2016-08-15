@@ -21,7 +21,7 @@
 * Lambda
 * Optional
 
-### new technique point:
+### @new technique point:
 * Spring boot, quickly establish a web service.
 
 ### next task(~~next week 25/07~26/07.2016)~~:
