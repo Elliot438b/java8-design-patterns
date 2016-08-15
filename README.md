@@ -24,7 +24,7 @@
 ### @new technique point:
 * Spring boot, quickly establish a web service.
 
-### next task(~~next week 25/07~26/07.2016)~~:
+### @next task(~~next week 25/07~26/07.2016)~~:
 * aggregator-microservices, a mechanism which could control and dispatch the sub modules.
 * Spring boot will be used at this part, let's do something different from SpringMVC.
 
@@ -58,7 +58,7 @@
 - mongoDB/virtualDB **install mongoDB on ubuntu.**
 - caller -> cache(fix size/Capacity) -> DB(big container)
 
-### install and use mongoDB on ubuntu
+### *install and use mongoDB on ubuntu
 - sudo apt-get install mongodb
 - sudo su - root, vi /etc/mongodb.conf, port=27017.
 - /etc/init.d/mongodb start**(force-reload/force-stop/restart/start/status/stop)**
@@ -66,7 +66,7 @@
 - show dbs,	use one of them, show collections, db.tname.find(), list all the data in this collection(table).
 - more command usage, please refer to [distinguish between MySQL and MongoDB](http://www.lai18.com/content/422835.html)
 
-### reset the git local modify 
+### *reset the git local modify 
 - Open the terminal, git checkout -f, refresh.
 
 ### callback pattern 
