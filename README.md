@@ -78,3 +78,9 @@
 - Chain is more like a big automatic system.
 - Duty is from leader to the worker themselves.
 - Worker choose the job which he could do by himself.(what an ideal society we are eager to.)
+
+### command
+- Which's a strong pattern could undo(invoke) or redo the command in some target class.
+- Wizard's a command queue to store the command invoked in an order.
+- Wizard is an invoker and manager to execute some commands.
+- Every command could store one old execute property's value that could be used when undo or redo.
