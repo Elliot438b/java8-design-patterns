@@ -84,3 +84,8 @@
 - Wizard's **a command queue** to store the command invoked in an order.
 - Wizard is an invoker and manager to execute some commands.
 - Every command could **store one old executed property's value** that could be used when undo or redo.
+
+### composite
+- Which is an interesting pattern. It describes a be-of or an including structure.
+- **part-whole hierarchies of objects**
+- **there aren't any differences between the part objects and the individual objects in this pattern.**
