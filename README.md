@@ -100,4 +100,4 @@
 - **Map,HashMap**'s new usage,like replace.	
 - **jdbc** things.like datasource,connection,statement,how to execute Sql schema,resultSet.
 - **log4j** xml configuration.
-- h2 datasource, **h2database**: one of the databases, writed by Java. Which is just a jar package,could cross-platform.Use h2.bat or h2.sh to start the service and then you can visit on the web page *IP：PORT/login.jsp*
+- h2 datasource, **h2database**: one of the databases, writed by Java. Which is just a jar package,could cross-platform.Use h2.bat or h2.sh to start the service and then you can visit on the web page:  *http://IP:PORT/login.jsp*
