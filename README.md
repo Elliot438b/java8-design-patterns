@@ -89,3 +89,15 @@
 - Which is an interesting pattern. It describes a be-of or an including structure.
 - **part-whole hierarchies of objects**
 - **there aren't any differences between the part objects and the individual objects in this pattern.**
+
+### dao pattern
+- not very familiar with the Dao we knew.
+- Stream usage, could make a list be a stream, and use Stream's advance features.
+- StreamSupport.stream: make a stream object.
+- Spliterators.AbstractSpliterator：Creates a spliterator reporting the given estimated size and additionalCharacteristics.
+- Optional, deal with the non-null object.
+- isPresent(),to judge if the object is exsit or not.
+- Map's new usage,like replace.	
+- jdbc things.like datasource,connection,statement,how to execute Sql schema,resultSet.
+- log4j xml configuration.
+- h2 datasource, h2database: one of the databases, writed by Java. Which is just a jar package,could cross-platform.Use h2.bat or h2.sh to start the service and then you can visit on the web page*IP：PORT/login.jsp*

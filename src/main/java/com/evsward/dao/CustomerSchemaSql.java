@@ -1,0 +1,6 @@
+package com.evsward.dao;
+
+public interface CustomerSchemaSql {
+	String CREATE_SCHEMEA_SQL = "CREATE TABLE CUSTOMERS(ID NUMBER, FNAME VARCHAR(100),LNAME VARCHAR(100))";
+	String DELETE_SCHEMA_SQL = "DROP TABLE CUSTOMERS";
+}
