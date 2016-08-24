@@ -111,4 +111,4 @@
 ### *Inherit includes two mode: HAS-A, IS-A. 
 ### *Inherit is not only use keyword 'extends' but also 'implements'. 
 
-
+### 3333
