@@ -110,3 +110,5 @@
 ### *Class which implements another class also could be a child class. 
 ### *Inherit includes two mode: HAS-A, IS-A. 
 ### *Inherit is not only use keyword 'extends' but also 'implements'. 
+
+
