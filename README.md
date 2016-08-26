@@ -113,4 +113,5 @@
 
 ### dependency-injection
 - use Google Guice framework to inject the object.
-- @Inject classModule
+- @Inject above the constructor of the class.
+- classModule to bind the super class and the implements class.
