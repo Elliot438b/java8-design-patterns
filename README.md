@@ -112,6 +112,6 @@
 ### *Inherit is not only use keyword 'extends' but also 'implements'. 
 
 ### dependency-injection
-- use Google Guice framework to inject the object.
+- use [Google Guice framework](https://github.com/google/guice) to inject the object.
 - @Inject above the constructor of the class.
 - classModule to bind the super class and the implements class.
