@@ -125,7 +125,7 @@
 - 除了该lambda（箭头）方法以外，还可以实现多个抽象方法，但必须是Object类的public方法。
 
 ```java
-	@FunctionalInterface
+	[@FunctionalInterface](https://docs.oracle.com/javase/8/docs/api/java/lang/FunctionalInterface.html)
 	public interface ObjectMethodFunctionalInterface {
 		void count(int i);
 		String toString(); //same to Object.toString
