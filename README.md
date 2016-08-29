@@ -152,5 +152,5 @@
 ```
 
 ### double-checked-locking
-- 多个线程进入一个方法，方法中的逻辑会对变量进行改变，这个改变会影响到其他线程调用的执行结果，这时候就要上锁。
-- 多个线程参与一个对象的建立，例如当你想建一个单例，多个线程共同检查是否是一个实例或者为空时，会有差错，这时候就要上锁。
+- Multiple threads access to a method, the method change will effect other threads.
+- Multiple join a object creation, for example the singleton. When judge if the instance has one or null, there also are some problems in these multiple threads.
