@@ -130,15 +130,17 @@
 		int hashCode(); //same to Object.hashCode
 		boolean equals(Object obj); //same to Object.equals
 	}    
-
+    
 - 还可以有默认方法（**default**）和静态方法（**static**）
 - example：
-
+    
     @FunctionalInterface
 	public interface Printable {
 	    public void print();
 	}
+	
 - lambda invoke
-
+    
     Printable job = ()-> out.println("Java SE 8 is working, " + "and Lambda Expresion too.");
     job.print();
+    
