@@ -137,10 +137,10 @@
 
 	@FunctionalInterface
 	public interface Printable {
-	    public void print();
+		public void print();
 	}
 
 - lambda invoke
 
-    Printable job = ()-> out.println("Java SE 8 is working, " + "and Lambda Expresion too.");
-    job.print();
+	Printable job = ()-> out.println("Java SE 8 is working, " + "and Lambda Expresion too.");
+	job.print();
