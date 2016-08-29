@@ -124,6 +124,7 @@
 - [functional interface 介绍](http://colobu.com/2014/10/28/secrets-of-java-8-functional-interface/)
 - 除了该lambda（箭头）方法以外，还可以实现多个抽象方法，但必须是Object类的public方法。
 
+```java
 	@FunctionalInterface
 	public interface ObjectMethodFunctionalInterface {
 		void count(int i);
@@ -131,6 +132,7 @@
 		int hashCode(); //same to Object.hashCode
 		boolean equals(Object obj); //same to Object.equals
 	}
+```
 
 - 还可以有默认方法（**default**）和静态方法（**static**）
 - example：
