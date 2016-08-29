@@ -137,12 +137,16 @@
 - 还可以有默认方法（**default**）和静态方法（**static**）
 - example：
 
+```java
 	@FunctionalInterface
 	public interface Printable {
 		public void print();
 	}
+```
 
 - lambda invoke
 
+```java
 	Printable job = ()-> out.println("Java SE 8 is working, " + "and Lambda Expresion too.");
 	job.print();
+```
