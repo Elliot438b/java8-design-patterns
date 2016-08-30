@@ -154,3 +154,10 @@
 ### double-checked-locking
 - Multiple threads access to a method, the method change will effect other threads.
 - Multiple join a object creation, for example the singleton. When judge if the instance has one or null, there also are some problems in these multiple threads.
+
+### double-dispatch
+- 分为三层：父类，子类，孙类
+- 父类是个抽象类，会声明出所有子类孙类的抽象方法（实际上是重载，方法名一样，参数列表一定不一样，返回值可以一样也可以不一样。）
+- 方法重载，在父类中定义所有子类，以及孙类的实现方法。
+- 在子类中要重写自己的方法，自己子类（孙类层）的方法，也要强制重写其他子类及孙类的方法，有不同的逻辑和结果。
+- 孙类的实现方法实际上也在子类层，孙类只起到一个声明作用，调用方法。
