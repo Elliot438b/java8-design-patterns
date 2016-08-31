@@ -162,3 +162,15 @@
 - 每个子类要重写父类中声明属于自己的方法，以及自己子类（孙类层）的方法，也要强制重写其他子类及孙类的方法，有不同的逻辑和结果。
 - **孙类的具体实现方法实际上也在子类层，孙类只起到一个声明作用或者说是调用入口**
 - **should be used with caution**
+
+### event-aggregator
+- interesting program, use GOT to make a example.
+- king's hand is the event aggregator.
+- king's hand in charge of reporting event to the king.
+- other lord,like baelish(little finger), varys(no cock), scout, they report to the king's hand.
+- hence, three layers.
+- Observer 是观察事件的，信息消费者，EventEmitter 是收集消息的，信息制造者。
+- King是信息消费者，小指头和秃头是信息制造者，而国王之手既是信息制造者也是信息收集者，他将收集过来的信息报告给King。
+
+	Event Aggregator is a good choice when you have lots of objects that are potential event sources. Rather than have the observer deal with registering with them all, you can centralize the registration logic to the Event Aggregator. As well as simplifying registration, a Event Aggregator also simplifies the memory management issues in using observers.
+	
