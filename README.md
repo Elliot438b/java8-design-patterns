@@ -175,4 +175,9 @@
 - King是信息消费者，小指头和秃头是信息制造者，而国王之手既是信息制造者也是信息收集者，他将收集过来的信息报告给King。
 
 > Event Aggregator is a good choice when you have lots of objects that are potential event sources. Rather than have the observer deal with registering with them all, you can centralize the registration logic to the Event Aggregator. As well as simplifying registration, a Event Aggregator also simplifies the memory management issues in using observers.
-	
+
+### event-driven-architecture
+- you want to create a loosely coupled system.
+- you want to build a more responsive system.
+- you want a system that is easier to extend.
+- class<? extend parentClass> structure.
