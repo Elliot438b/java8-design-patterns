@@ -181,3 +181,7 @@
 - you want to build a more responsive system.
 - you want a system that is easier to extend.
 - class<? extend parentClass> structure.
+
+### execute-around
+- Which is an ingenious pattern to free the user from certain actions.
+- How to use java.io.FileWriter to write character to file easily.
