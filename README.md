@@ -185,3 +185,7 @@
 ### execute-around
 - Which is an ingenious pattern to free the user from certain actions.
 - How to use java.io.FileWriter to write character to file easily.
+
+### facade
+- Which is a popular pattern when you want your project looks clearly.
+- Use it when you want to provide a simple interface to a complex subsystem. 
