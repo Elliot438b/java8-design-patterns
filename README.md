@@ -191,5 +191,5 @@
 - Use it when you want to provide a simple interface to a complex subsystem. 
 ---
 
-### (2016-09-07)factory-fit, pause here， to study netty.Respawn here
+### (2016-09-07)factory-fit, to study netty. Respawn here.
 ---
