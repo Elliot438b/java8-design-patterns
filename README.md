@@ -189,6 +189,7 @@
 ### facade
 - Which is a popular pattern when you want your project looks clearly.
 - Use it when you want to provide a simple interface to a complex subsystem. 
+
 ---
 
 ### (2016-09-07)factory-fit, to study netty. Respawn here.
