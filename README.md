@@ -194,3 +194,7 @@
 
 ### (2016-09-07)factory-fit, to study netty. Respawn here.
 ---
+
+### (2016-10-10)back to design patterns in free time.
+### factory-method.
+- double implements and the App to point the concrete instance to do.
